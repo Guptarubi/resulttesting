@@ -1,0 +1,1327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Satta King</title>
+<style>
+ .nav-container {
+    width: 100%; /* Adjust this as needed */
+    background-color: #000; /* Background color for the container */
+}
+
+.gr-top-nav {
+    display: flex;
+    padding: 1px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.gr-top-nav a {
+    border-radius: 10px;
+    background-color: #25579d;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    border: 4px solid #000;
+    padding: 2px 15px;
+    text-decoration: none;
+    transition: color .2s;
+}
+
+
+.gr-sixteen {
+    border: 5px solid #000;
+    border-radius: 10px;
+    background: #160232;
+    text-align: center;
+    padding: 10px;
+    color: #fce418;
+  }
+  .gr-sixth-whatsapp {
+    display: flex;
+    justify-content: center;
+  }
+  .gr-sixth-whatsapp .one {
+    border: 2px inset #777;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #00f;
+    color: #fff;
+  }
+  .gr-sixth-whatsapp .two {
+    border: 2px inset #777;
+    padding: 10px;
+    background-color: green;
+    color: #fff;
+  }
+  .gr-sixth-whatsapp a, p {
+    text-align: center;
+  }
+  .left-button {
+    order: 1;
+  }
+
+  .center-button {
+    order: 2;
+  }
+
+  .right-button {
+    order: 3;
+  }
+
+ .content-container {
+    border: 4px dotted #00f;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    padding-bottom: 5px;
+    margin-bottom: 2px;
+ text-align: center;
+}
+.content-container h1 {
+    color: #fff;
+ margin-bottom: 20px;
+}
+
+  .content-container img {
+    max-width: 100%;
+    height: auto;
+  }
+ .marquee-wrapper {
+    background-color: #a80000;
+    //padding: 1px;
+  }
+
+  .gr-marquee {
+    color: white; /* Changing text color for better visibility */
+  }
+.satta-king-live {
+    text-align: center;
+    background-color: #1d9d82;
+    padding: 2px;
+    color: white;
+  }
+.satta-king-box-buttons .satta-king-box-button.whatsapp {
+    background-color: green;
+}
+
+.satta-king-box-buttons .satta-king-box-button {
+    padding: 5px 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 0 5px;
+    border: 1px solid #00f;
+}
+
+.abc{
+color:red;
+}
+.highlight {
+    background-color: red; /* Set background color of the new word to red */
+    color: white;
+  }
+.one{
+font-size: 16px;
+    -webkit-text-stroke: 1px #fff;
+    text-shadow: 6px 4px 4px #000;
+    color: red;
+}
+.content-color{
+ color: white;
+    font-size: 30px;
+}
+.three {
+    color: #00b8ff;
+    font-size: 30px;
+}
+.contact-details .satta-king-box-button.whatsapp {
+    background-color: green;
+}
+
+.contact-details .satta-king-box-button.call {
+    background-color: blue;
+}
+.contact-details {
+    text-align: center;
+    border: 2px solid #000; /* Adjust border properties as needed */
+    padding: 10px; /* Add padding for spacing */
+}
+
+.contact-details .satta-king-box-button {
+    padding: 5px 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 0 5px;
+    border: 1px solid #00f;
+}
+.contact-detailsss {
+    text-align: center;
+ background: linear-gradient(to right, #237A57, #093028);
+    padding: 20px;
+    color: white;
+}
+  .one {
+    font-size: 30px;
+    -webkit-text-stroke: 1px #fff;
+    text-shadow: 6px 4px 4px #000;
+    color: red;
+}
+  .content-color {
+    font-size: 16px;
+  }
+.gr-eight {
+    border: 4px solid #f5ecce;
+    background: #093028;
+    background: linear-gradient(to right, #237A57, #093028);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 2px;
+}
+.gr-sixteen {
+    border: 5px solid #000;
+    border-radius: 10px;
+    background: #160232;
+    text-align: center;
+    padding: 10px;
+    color: #fce418;
+  }
+  .gr-sixteenth-whatsapp a, p {
+    text-align: center;
+  }
+.gr-fourteen-header {
+    background-color: #002f99;
+    color: #fff;
+    margin: 2px;
+    padding: 2px;
+  }
+  .gr-fourteen-body {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1px;
+  }
+  .gr-fourteen-body .left, .gr-fourteen-body .right {
+    width: 45%;
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 2px;
+  }
+  .gr-fourteen-body .left p, .gr-fourteen-body .right p {
+    margin: 0;
+  }
+  .gr-fourteen-body .score {
+    margin-top: 10px;
+  }
+  .gr-fourteen-body .score p {
+    margin: 0;
+  }
+.gr-fourteen .gr-fourteen-body .left .score, .gr-fourteen .gr-fourteen-body .right .score {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ebfdff;
+    margin: 0;
+    padding: 1px;
+}
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 10px; /* Adjust spacing as needed */
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+ .custom-container {
+    border: 2px solid #000;
+    border-radius: 10px;
+    background: #156858;
+    background: -webkit-linear-gradient(to right, #002d22, #156858, #041411);
+    background: linear-gradient(to right, #002d22, #156858, #041411);
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+ .gr-fourteen {
+        width: 100%;
+       // max-width: 1200px;
+        margin: 0 auto;
+    }
+    .gr-fourteen-header {
+        background-color: #002f99;
+        color: #fff;
+        margin: 1px;
+        padding: 1px;
+	text-align:center;
+    }
+    .gr-fourteen .gr-fourteen-body {
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 1px;
+    }
+    .gr-fourteen .gr-fourteen-body .left, .right {
+        width: calc(50% - 4px);
+        margin: 1px;
+    }
+    .gr-fourteen .gr-fourteen-body .left .one, .gr-fourteen .gr-fourteen-body .right .one {
+        border: 2px solid #003cff;
+        color: #fff;
+        background: #001899;
+        padding: 5px;
+        margin: 0;
+	font-size:16px;
+    }
+    .gr-fourteen .gr-fourteen-body .left .two, .gr-fourteen .gr-fourteen-body .right .two {
+        background: #007991;
+        background: -webkit-linear-gradient(to right, #78ffd6, #007991);
+        background: linear-gradient(to right, #78ffd6, #007991);
+        padding: 5px;
+        margin: 0;
+    }
+    .gr-fourteen .gr-fourteen-body .left .score, .gr-fourteen .gr-fourteen-body .right .score {
+        display: flex;
+        justify-content: space-around;
+        background-color: #ebfdff;
+        margin: 0;
+        padding: 5px;
+    }
+    .gr-fourteen .gr-fourteen-body .left .score .old, .gr-fourteen .gr-fourteen-body .right .score .old {
+        color: #ad0000;
+        font-size: 18px;
+        font-weight: 400;
+        margin: 0;
+    }
+    .gr-fourteen .gr-fourteen-body .left .score .new, .gr-fourteen .gr-fourteen-body .right .score .new {
+        color: #002f99;
+        font-size: 18px;
+        font-weight: 400;
+        margin: 0;
+    }
+    .gr-fourteen .gr-fourteen-body .left p, .gr-fourteen .gr-fourteen-body .right p {
+        margin: 0;
+        border-bottom: 2px solid beige;
+        padding: 5px;
+    }
+.gr-marquee {
+    border: 1px solid #ff0;
+    background-color: #a80000;
+    padding: 3px;
+    color: #fff;
+}
+.gr-seventh {
+    background-color: #1d9d82;
+    margin-bottom: 10px;
+text-align:center;
+}
+.gr-seventh h1 {
+    color: #fff;
+    padding: 10px;
+    font-size: 22px;
+}
+.satta-king-box-description {
+    color: #00f;
+    font-size: 16px;
+    margin: 0;
+    line-height: 1;
+}
+.satta-king-box-contact {
+    font-weight: 700;
+    color: green;
+    font-size: 18px;
+    margin: 4px 0;
+}
+.text{
+    color: #ff2121;
+    line-height: 1px;
+    font-size: 18px;
+    font-weight: 800;
+}
+</style>
+</head>
+<body>
+
+<div class="nav-container">
+    <nav class="gr-top-nav">
+        <a href="https://gali-result.in/"><p>Satta Result</p></a>
+        <a href="deshawar-record-2024.php"><p>Desawar Result</p></a>
+        <a href="satta-king.php"><p>Satta chart</p></a>
+    </nav>
+</div>
+
+
+<div class="content-container">
+  <h1><a href="#"><img src="logo.webp" alt="Satta King Logo"></a></h1>
+</div>
+<marquee class="gr-marquee">
+<span>Satta king, Sattaking, Desawar result, Satta result, Satta king result, Satta king live, Satta king online , Gali result, Faridabad result, Gaziyabad result, Satta king chart, Desawar record chart, Gali record chart, Faridabad record chart, Satta King 2024, Gaziyabad record chart, Dishawar Satta King.</span>
+</marquee>
+<div class="gr-seventh">
+<h1 style="font-size:22px;">Satta King | Gali Result | Satta Result | Desawar Result | सट्टा किंग | Satta King Online Result 2024</h1>
+</div>
+
+<div class="contact-details">
+  <p><b>आज की लीक जोड़ी</b></p>
+  <p class="abc">Radhika CEO Md</p>
+  <p class="satta-king-box-contact">7209143562</p>
+ <a href="https://wa.me/qr/3OTHEPAIJRGCF1" target="_blank" rel="nofollow" class="satta-king-box-button whatsapp">WhatsApp</a>
+<a href="tel:7320905400" class="satta-king-box-button call">Call Now</a>
+
+</div><br>
+<div class="contact-details">
+ <p class="abc"><b>Anita Kumari</b></p>
+ <p class="satta-king-box-description">गली दिसावर अलीगढ़,अतरौली नऐ साल पर होगी सबके घर में खुशियाँ। गेम लो सिंगल जोड़ी में दिसावर & कंपनी से लीक गेम जो होगा 100% फिक्स। कंपनी के खाते में पैसा जमा करवाकर कंपनी से गेम लें। गली और दिसावर कंपनी से लीक और फास्ट गेम बुक करवाएं और अपना लॉस वापस करें। डेट फिक्स गेम मिलेगी।</p>
+  <p class="satta-king-box-contact">7643814664</p>
+ 
+<a href="https://wa.me/qr/3OTHEPAIJRGCF1" target="_blank" rel="nofollow" class="satta-king-box-button whatsapp">WhatsApp</a>
+<a href="tel:7320905400" class="satta-king-box-button call">Call Now</a>
+
+</div><br>
+<div class="contact-details">
+ 
+  <p style="design"><b>Malani Thakur</b></p>
+<p class="abc">Ceo Of Satta company</p>
+ <p class="satta-king-box-description">अलीगढ़,अतरौली,गली,दिशावर में मिलेगी ऑनली सिंगल जोड़ी जो होगी 1001% गारंटी से पास. हमारे साथ काम करने वाले भाईयों का हर महीने लाखों का प्रॉफिट होता हैं। आप भी ज्वाइन कीजिए। गेम लेने के लिए अभी व्हाट्सएप करें</p>
+  <p>7209143562</p>
+ <a href="https://wa.me/qr/3OTHEPAIJRGCF1" target="_blank" rel="nofollow" class="satta-king-box-button whatsapp">WhatsApp</a>
+<a href="tel:7320905400" class="satta-king-box-button call">Call Now</a>
+
+</div><br>
+<div class="contact-details">
+  <p>आज की लीक जोड़ी</p>
+  <p class="abc"><b>Arjun Kashyap</b></p>
+  <p class="satta-king-box-contact">8868891400</p>
+ <a href="https://wa.me/qr/3OTHEPAIJRGCF1" target="_blank" rel="nofollow" class="satta-king-box-button whatsapp">WhatsApp</a>
+<a href="tel:7320905400" class="satta-king-box-button call">Call Now</a>
+
+</div><br>
+<div class="contact-details">
+   <p><b>Aditya Saini</b></p>
+<p class="abc">Chief Executive Officer</p>
+<p class="satta-king-box-description">गली दिसावर अलीगढ़ अतरौली  नऐ साल पर होगी सबके घर में खुशियाँ। गेम लो सिंगल जोड़ी में दिसावर & कंपनी से लीक गेम जो होगा 100% फिक्स। कंपनी के खाते में पैसा जमा करवाकर कंपनी से गेम लें। गली और दिसावर कंपनी से लीक और फास्ट गेम बुक करवाएं और अपना लॉस वापस करें। डेट फिक्स गेम मिलेगी। जिस भाई का कभी गेम पास नहीं हुआ हो और परेशान हो, तो हमसे संपर्क करें।</p>
+  <p class="satta-king-box-contact">6395992500</p>
+  <a href="https://wa.me/qr/3OTHEPAIJRGCF1" target="_blank" rel="nofollow" class="satta-king-box-button whatsapp">WhatsApp</a>
+<a href="tel:7320905400" class="satta-king-box-button call">Call Now</a>
+
+</div><br>
+<div class="contact-detailsss" id="dynamicContent">
+  <p class="one">Aligarh</p>
+  <p class="content-color">TIME { 06:00 pm }</p>
+  <p class="three">92<img src="new.gif" width="25" height="11" alt="satta king"></p><br>
+ <p class="one">Atrauli</p>
+  <p class="content-color">TIME { 06:00 pm }</p>
+  <p class="three">92<img src="new.gif" width="25" height="11" alt="satta king"></p><br>
+ <p class="one">Chharra</p>
+  <p class="content-color">TIME { 06:00 pm }</p>
+  <p class="three">90<img src="new.gif" width="25" height="11" alt="satta king"></p><br>
+ <p class="one">Narora</p>
+  <p class="content-color">TIME { 06:00 pm }</p>
+  <p class="three">27<img src="new.gif" width="25" height="11" alt="satta king"></p><br>
+ <p class="one">Dibai</p>
+  <p class="content-color">TIME { 06:00 pm }</p>
+  <p class="three">45<img src="new.gif" width="25" height="11" alt="satta king"></p><br>
+ <p class="one">Bulandshahar</p>
+  <p class="content-color">TIME { 06:00 pm }</p>
+  <p class="three">56<img src="new.gif" width="25" height="11" alt="satta king"></p>
+ <p class="one">Delaware</p>
+ <p class="content-color">TIME { 06:00 pm }</p>
+  <p class="three">92<img src="new.gif" width="25" height="11" alt="satta king"></p><br>
+  <p class="one">Faridabad</p>
+ <p class="content-color">TIME { 06:00 pm }</p>
+  <p class="three">92<img src="new.gif" width="25" height="11" alt="satta king"></p><br>
+  <p class="one">Hindustan</p>
+ <p class="content-color">TIME { 06:00 pm }</p>
+  <p class="three">92<img src="new.gif" width="25" height="11" alt="satta king"></p><br>
+  <p class="one">Haridwar</p>
+ <p class="content-color">TIME { 06:00 pm }</p>
+  <p class="three">92<img src="new.gif" width="25" height="11" alt="satta king"></p><br>
+  <p class="one">Delhi bazar</p>
+ <p class="content-color">TIME { 06:00 pm }</p>
+  <p class="three">92<img src="new.gif" width="25" height="11" alt="satta king"></p><br>
+  <p class="one">Delhi gold</p>
+ <p class="content-color">TIME { 06:00 pm }</p>
+  <p class="three">92<img src="new.gif" width="25" height="11" alt="satta king"></p><br>
+  <p class="one">Dubai bazar</p>
+ <p class="content-color">TIME { 06:00 pm }</p>
+  <p class="three">92<img src="new.gif" width="25" height="11" alt="satta king"></p><br>
+  <p class="one">Taj express</p>
+ <p class="content-color">TIME { 06:00 pm }</p>
+  <p class="three">92<img src="new.gif" width="25" height="11" alt="satta king"></p><br>
+  <p class="one">Delaware sham</p>
+ <p class="content-color">TIME { 06:00 pm }</p>
+  <p class="three">92<img src="new.gif" width="25" height="11" alt="satta king"></p><br>
+  <p class="one">Bheem.bazar</p>
+ <p class="content-color">TIME { 06:00 pm }</p>
+  <p class="three">92<img src="new.gif" width="25" height="11" alt="satta king"></p><br>
+  <p class="one">Maharasta satta</p>
+ <p class="content-color">TIME { 06:00 pm }</p>
+  <p class="three">92<img src="new.gif" width="25" height="11" alt="satta king"></p><br>
+  <p class="one">Gali</p>
+ <p class="content-color">TIME { 06:00 pm }</p>
+  <p class="three">92<img src="new.gif" width="25" height="11" alt="satta king"></p><br>
+  <p class="one">Gaziyabad</p>
+ <p class="content-color">TIME { 06:00 pm }</p>
+  <p class="three">92<img src="new.gif" width="25" height="11" alt="satta king"></p><br>
+  <p class="one">Ghaziabad Din</p>
+ <p class="content-color">TIME { 06:00 pm }</p>
+  <p class="three">92<img src="new.gif" width="25" height="11" alt="satta king"></p><br>
+  <p class="one">Mubai bazar</p>
+ <p class="content-color">TIME { 06:00 pm }</p>
+  <p class="three">--<img src="new.gif" width="25" height="11" alt="satta king"></p><br>
+  <p class="one">India bazar</p>
+ <p class="content-color">TIME { 06:00 pm }</p>
+  <p class="three">--<img src="new.gif" width="25" height="11" alt="satta king"></p><br>
+  <p class="one">Goa night</p>
+ <p class="content-color">TIME { 06:00 pm }</p>
+  <p class="three">--<img src="new.gif" width="25" height="11" alt="satta king"></p><br>
+  <p class="one">Mumbai city</p>
+ <p class="content-color">TIME { 06:00 pm }</p>
+  <p class="three">--<img src="new.gif" width="25" height="11" alt="satta king"></p><br>
+  <p class="one">Palwal</p>
+ <p class="content-color">TIME { 06:00 pm }</p>
+  <p class="three">--<img src="new.gif" width="25" height="11" alt="satta king"></p><br>
+  <p class="one">Ncr</p>
+ <p class="content-color">TIME { 06:00 pm }</p>
+  <p class="three">--<img src="new.gif" width="25" height="11" alt="satta king"></p><br>
+</div>
+<div class="contact-details">
+ <p><b>PRIYA PANDEY</b></p>
+ <p class="satta-king-box-description">फरीदाबाद गाजियाबाद गली दिसावर मैं आपको सिंगल जोड़ी में कंपनी गेम पास कराकर देगी जो भी मेरा भाई जगह-जगह से धोखा खाकर थक चुका है तो सोचिए मत अभी मैसेज करें गेम की 1001% परसेंट कंपनी की गारंटी होगी गेम पास होगा</p>
+  <p class="satta-king-box-contact">7643814664</p>
+ 
+<a href="https://wa.me/qr/3OTHEPAIJRGCF1" target="_blank" rel="nofollow" class="satta-king-box-button whatsapp">WhatsApp</a>
+<a href="tel:7320905400" class="satta-king-box-button call">Call Now</a>
+
+</div><br>
+<div class="contact-details">
+ <p><b>Anita Kumari</b></p>
+<p class="abc">Head manager Satta Company</p>
+ <p class="satta-king-box-description">
+सिंगल जोड़ी हेड ब्रांच सट्टा कंपनी" (दिल्ली बाजार,गली, दिसावर, फरीदाबाद ,गाजियाबाद) जो भाई काफी परेशान है तो बिल्कुल भी टेंशन ना ले गेम की 1001℅ परसेंट गारंटी डायरेक्ट कंपनी से लीक गेम ऐसा मौका बार-बार नहीं मिलता है तो सोचो मत सीधा कॉल करो ऐसा मौका बार-बार नहीं मिलता है खाईवाल को लूटने का</p>
+  <p class="satta-king-box-contact">7643814664</p>
+ 
+<a href="https://wa.me/qr/3OTHEPAIJRGCF1" target="_blank" rel="nofollow" class="satta-king-box-button whatsapp">WhatsApp</a>
+<a href="tel:7320905400" class="satta-king-box-button call">Call Now</a>
+
+</div><br>
+<div class="contact-details">
+ <p><b>Nisha Yadav</b></p>
+<p class="abc">Head manager Satta Company</p>
+ <p class="satta-king-box-description">
+फरीदाबाद गाजियाबाद गली दिसावर लिक कंफर्म गेम जो कोई भी भाई जगह-जगह से धोखा खाया हुआ है धोखा खाकर थक चुका है तो बिल्कुल भी टेंशन ना ले गेम की 1001℅ परसेंट गारंटी डायरेक्ट कंपनी से लीक गेम सभी भाइयों सोचो ना ऐसा मौका बार-बार नहीं मिलता है तो सोचो मत सीधा कॉल करो ऐसा मौका बार-बार नहीं मिलता है खाईवाल को लूटने का</p>
+  <p class="satta-king-box-contact">7643814664</p>
+ 
+<a href="https://wa.me/qr/3OTHEPAIJRGCF1" target="_blank" rel="nofollow" class="satta-king-box-button whatsapp">WhatsApp</a>
+<a href="tel:7320905400" class="satta-king-box-button call">Call Now</a>
+
+</div><br>
+<section class="gr-fourteen">
+<div class="gr-fourteen-header">
+<h2>Satta King 2024 Chart</h2>
+</div>
+<div class="gr-fourteen-body">
+<div class="left">
+<p class="one"> DESAWAR</p>
+<p class="two">TIME { 05:15 am }</p>
+<div class="score">
+<p class="old">
+83 </p>
+<p class="new">
+83 </p>
+</div>
+</div>
+<div class="right">
+<p class="one"> GALI</p>
+<p class="two">TIME { 11:50 pm }</p>
+<div class="score">
+<p class="old">
+36 </p>
+<p class="new">
+-- </p>
+</div>
+</div>
+</div>
+<div class="gr-fourteen-body">
+<div class="left">
+<p class="one"> FARIDABAD</p>
+<p class="two">TIME { 06:00 pm }</p>
+<div class="score">
+<p class="old">
+40 </p>
+<p class="new">
+36 </p>
+</div>
+</div>
+<div class="right">
+<p class="one"> GAZIYABAAD</p>
+<p class="two">TIME { 08:50 pm }</p>
+<div class="score">
+<p class="old">
+34 </p>
+<p class="new">
+75 </p>
+</div>
+</div>
+</div>
+<div class="gr-fourteen-body">
+<div class="left">
+<p class="one"> HINDUSTAN</p>
+<p class="two">TIME { 05:30 pm }</p>
+<div class="score">
+<p class="old">
+69 </p>
+<p class="new">
+50 </p>
+</div>
+</div>
+<div class="right">
+<p class="one"> GHAZIABAD DIN</p>
+<p class="two">TIME { 04:30 pm }</p>
+<div class="score">
+<p class="old">
+47 </p>
+<p class="new">
+38 </p>
+</div>
+</div>
+</div>
+<div class="gr-fourteen-body">
+<div class="left">
+<p class="one"> TEZPUR DAY</p>
+<p class="two">TIME { 04:30 pm }</p>
+<div class="score">
+<p class="old">
+47 </p>
+<p class="new">
+26 </p>
+</div>
+</div>
+<div class="right">
+<p class="one"> TEZPUR EVENING</p>
+<p class="two">TIME { 06:30 pm }</p>
+<div class="score">
+<p class="old">
+73 </p>
+<p class="new">
+64 </p>
+</div>
+</div>
+</div>
+<div class="gr-fourteen-body">
+<div class="left">
+<p class="one"> TEZPUR NIGHT</p>
+<p class="two">TIME { 08:30 pm }</p>
+<div class="score">
+<p class="old">
+70 </p>
+<p class="new">
+43 </p>
+</div>
+</div>
+<div class="right">
+<p class="one"> MUMBAI BAZAR</p>
+<p class="two">TIME { 06:00 pm }</p>
+<div class="score">
+<p class="old">
+40 </p>
+<p class="new">
+36 </p>
+</div>
+</div>
+</div>
+<div class="gr-fourteen-body">
+<div class="left">
+<p class="one"> HARIDWAR</p>
+<p class="two">TIME { 12:00 pm }</p>
+<div class="score">
+<p class="old">
+23 </p>
+<p class="new">
+14 </p>
+</div>
+</div>
+<div class="right">
+<p class="one"> GHAZIABAD NOON</p>
+<p class="two">TIME { 02:00 pm }</p>
+<div class="score">
+<p class="old">
+89 </p>
+<p class="new">
+04 </p>
+</div>
+</div>
+</div>
+<div class="gr-fourteen-body">
+<div class="left">
+<p class="one"> TEZPUR MORNING</p>
+<p class="two">TIME { 01:30 pm }</p>
+<div class="score">
+<p class="old">
+11 </p>
+<p class="new">
+97 </p>
+</div>
+</div>
+<div class="right">
+<p class="one"> LUCKNOW GOLD</p>
+<p class="two">TIME { 12:10 pm }</p>
+<div class="score">
+<p class="old">
+32 </p>
+<p class="new">
+90 </p>
+</div>
+</div>
+</div>
+<div class="gr-fourteen-body">
+<div class="left">
+<p class="one"> DELHI BAZAAR</p>
+<p class="two">TIME { 03:00 pm }</p>
+<div class="score">
+<p class="old">
+XX </p>
+<p class="new">
+34 </p>
+</div>
+</div>
+<div class="right">
+<p class="one"> INDIA BAZAR</p>
+<p class="two">TIME { 04:15 pm }</p>
+<div class="score">
+<p class="old">
+96 </p>
+<p class="new">
+30 </p>
+</div>
+</div>
+</div>
+<div class="gr-fourteen-body">
+<div class="left">
+<p class="one"> DELHI GOLD</p>
+<p class="two">TIME { 07:45 pm }</p>
+<div class="score">
+<p class="old">
+41 </p>
+<p class="new">
+89 </p>
+</div>
+</div>
+<div class="right">
+<p class="one"> PUNE CITY</p>
+<p class="two">TIME { 12:30 pm }</p>
+<div class="score">
+<p class="old">
+14 </p>
+<p class="new">
+43 </p>
+</div>
+</div>
+</div>
+<div class="gr-fourteen-body">
+<div class="left">
+<p class="one"> RANCHI</p>
+<p class="two">TIME { 05:00 am }</p>
+<div class="score">
+<p class="old">
+83 </p>
+<p class="new">
+-- </p>
+</div>
+</div>
+<div class="right">
+<p class="one"> GOA NIGHT</p>
+<p class="two">TIME { 11:50 pm }</p>
+<div class="score">
+<p class="old">
+36 </p>
+<p class="new">
+-- </p>
+</div>
+</div>
+</div>
+<div class="gr-fourteen-body">
+<div class="left">
+<p class="one"> BHOPAL MORNING</p>
+<p class="two">TIME { 04:45 am }</p>
+<div class="score">
+<p class="old">
+83 </p>
+<p class="new">
+83 </p>
+</div>
+</div>
+<div class="right">
+<p class="one"> INDIA DARBAR</p>
+<p class="two">TIME { 11:20 am }</p>
+<div class="score">
+<p class="old">
+68 </p>
+<p class="new">
+79 </p>
+</div>
+</div>
+</div>
+<div class="gr-fourteen-body">
+<div class="left">
+<p class="one"> UPSTATE</p>
+<p class="two">TIME { 04:15 pm }</p>
+<div class="score">
+<p class="old">
+72 </p>
+<p class="new">
+02 </p>
+</div>
+</div>
+<div class="right">
+<p class="one"> MUMBAI CITY</p>
+<p class="two">TIME { 01:15 pm }</p>
+<div class="score">
+<p class="old">
+70 </p>
+<p class="new">
+60 </p>
+</div>
+</div>
+</div>
+<div class="gr-fourteen-body">
+<div class="left">
+<p class="one"> DUBAI BAZAR</p>
+<p class="two">TIME { 11:00 pm }</p>
+<div class="score">
+<p class="old">
+85 </p>
+<p class="new">
+-- </p>
+</div>
+</div>
+<div class="right">
+<p class="one"> PALWAL</p>
+<p class="two">TIME { 07:30 pm }</p>
+<div class="score">
+<p class="old">
+72 </p>
+<p class="new">
+41 </p>
+</div>
+</div>
+</div>
+<div class="gr-fourteen-body">
+<div class="left">
+<p class="one"> RAJASTHAN EVENING</p>
+<p class="two">TIME { 03:00 pm }</p>
+<div class="score">
+<p class="old">
+56 </p>
+<p class="new">
+28 </p>
+</div>
+</div>
+<div class="right">
+<p class="one"> BIG BAZAR</p>
+<p class="two">TIME { 07:40 pm }</p>
+<div class="score">
+<p class="old">
+96 </p>
+<p class="new">
+97 </p>
+</div>
+</div>
+</div>
+<div class="gr-fourteen-body">
+<div class="left">
+<p class="one"> TAJ EXPRESS</p>
+<p class="two">TIME { 10:30 pm }</p>
+<div class="score">
+<p class="old">
+18 </p>
+<p class="new">
+-- </p>
+</div>
+</div>
+<div class="right">
+<p class="one"> NCR</p>
+<p class="two">TIME { 02:15 pm }</p>
+<div class="score">
+<p class="old">
+69 </p>
+<p class="new">
+83 </p>
+</div>
+</div>
+</div>
+<div class="gr-fourteen-body">
+<div class="left">
+<p class="one"> SHRI LAXMI</p>
+<p class="two">TIME { 07:30 pm }</p>
+<div class="score">
+<p class="old">
+47 </p>
+<p class="new">
+22 </p>
+</div>
+</div>
+<div class="right">
+<p class="one"> UP BAZAAR</p>
+<p class="two">TIME { 04:30 pm }</p>
+<div class="score">
+<p class="old">
+33 </p>
+<p class="new">
+00 </p>
+</div>
+</div>
+</div>
+<div class="gr-fourteen-body">
+<div class="left">
+<p class="one"> MEERUT CITY</p>
+<p class="two">TIME { 03:00 pm }</p>
+<div class="score">
+<p class="old">
+94 </p>
+<p class="new">
+34 </p>
+</div>
+</div>
+<div class="right">
+<p class="one"> RAJDHANI </p>
+<p class="two">TIME { 03:30 pm }</p>
+<div class="score">
+<p class="old">
+XX </p>
+<p class="new">
+68 </p>
+</div>
+</div>
+</div>
+<div class="gr-fourteen-body">
+<div class="left">
+<p class="one"> CHAND TARA </p>
+<p class="two">TIME { 04:00 pm }</p>
+<div class="score">
+<p class="old">
+68 </p>
+<p class="new">
+31 </p>
+</div>
+</div>
+<div class="right">
+<p class="one"> ROLEX NIGHT</p>
+<p class="two">TIME { 11:00 pm }</p>
+<div class="score">
+<p class="old">
+67 </p>
+<p class="new">
+-- </p>
+</div>
+</div>
+</div>
+<div class="gr-fourteen-body">
+<div class="left">
+<p class="one"> TIGER SATTA</p>
+<p class="two">TIME { 07:30 pm }</p>
+<div class="score">
+<p class="old">
+XX </p>
+<p class="new">
+-- </p>
+</div>
+</div>
+<div class="right">
+<p class="one"> JAI LAXMI</p>
+<p class="two">TIME { 04:45 pm }</p>
+<div class="score">
+<p class="old">
+26 </p>
+<p class="new">
+29 </p>
+</div>
+</div>
+</div>
+<div class="gr-fourteen-body">
+<div class="left">
+<p class="one"> BIKANER SUPER</p>
+<p class="two">TIME { 02:25 am }</p>
+<div class="score">
+<p class="old">
+43 </p>
+<p class="new">
+17 </p>
+</div>
+</div>
+<div class="right">
+<p class="one"> TAJ</p>
+<p class="two">TIME { 03:15 pm }</p>
+<div class="score">
+<p class="old">
+26 </p>
+<p class="new">
+73 </p>
+</div>
+</div>
+</div>
+<div class="gr-fourteen-body">
+<div class="left">
+<p class="one"> MAHARASHTAR BAZAAR</p>
+<p class="two">TIME { 05:30 pm }</p>
+<div class="score">
+<p class="old">
+XX </p>
+<p class="new">
+-- </p>
+</div>
+</div>
+<div class="right">
+<p class="one"> NEPAL DIN</p>
+<p class="two">TIME { 03:30 pm }</p>
+<div class="score">
+<p class="old">
+XX </p>
+<p class="new">
+-- </p>
+</div>
+</div>
+</div>
+<div class="gr-fourteen-body">
+<div class="left">
+<p class="one"> SHREE GANESH</p>
+<p class="two">TIME { 04:45 pm }</p>
+<div class="score">
+<p class="old">
+XX </p>
+<p class="new">
+-- </p>
+</div>
+</div>
+<div class="right">
+<p class="one"> SUPER DISAWAR</p>
+<p class="two">TIME { 05:00 pm }</p>
+<div class="score">
+<p class="old">
+88 </p>
+<p class="new">
+65 </p>
+</div>
+</div>
+</div>
+<div class="gr-fourteen-body">
+<div class="left">
+<p class="one"> DESAWAR SHAM</p>
+<p class="two">TIME { 09:15 pm }</p>
+<div class="score">
+<p class="old">
+XX </p>
+<p class="new">
+-- </p>
+</div>
+</div>
+<div class="right">
+<p class="one"> RAJDARBAR</p>
+<p class="two">TIME { 03:35 pm }</p>
+<div class="score">
+<p class="old">
+92 </p>
+<p class="new">
+-- </p>
+</div>
+</div>
+</div>
+<div class="gr-fourteen-body">
+<div class="left">
+<p class="one"> Bheem Bazar</p>
+<p class="two">TIME { 10:00 pm }</p>
+<div class="score">
+<p class="old">
+50 </p>
+<p class="new">
+60 </p>
+</div>
+</div>
+<div class="right">
+<p class="one"> Hyderabad Old</p>
+<p class="two">TIME { 07:00 pm }</p>
+<div class="score">
+<p class="old">
+XX </p>
+<p class="new">
+-- </p>
+</div>
+</div>
+</div>
+<div class="gr-fourteen-body">
+<div class="left">
+<p class="one"> MAHARASHTAR SATTA</p>
+<p class="two">TIME { 01:30 pm }</p>
+<div class="score">
+<p class="old">
+XX </p>
+<p class="new">
+-- </p>
+</div>
+</div>
+<div class="right">
+<p class="one"> SHREE KISHAN</p>
+<p class="two">TIME { 08:00 pm }</p>
+<div class="score">
+<p class="old">
+07 </p>
+<p class="new">
+18 </p>
+</div>
+</div>
+</div>
+</section>
+<div class="satta-king-live">
+  <h2>Satta King 2024 Chart</h2>
+</div>
+
+<h3 style="text-align:center;color:black;">Monthly Satta King Results</h3>
+
+<table class="random-table">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Desawar</th>
+      <th>Gali</th>
+      <th>Faridabad</th>
+      <th>Gaziabad</th>
+      <th>Hindustan</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <tr>
+      <td>01/01/2024</td>
+      <td>45</td>
+      <td>12</td>
+      <td>34</td>
+      <td>78</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>01/02/2024</td>
+      <td>32</td>
+      <td>56</td>
+      <td>98</td>
+      <td>43</td>
+      <td>65</td>
+    </tr>
+    <tr>
+      <td>01/02/2024</td>
+      <td>32</td>
+      <td>56</td>
+      <td>98</td>
+      <td>43</td>
+      <td>65</td>
+    </tr>
+<tr>
+      <td>01/02/2024</td>
+      <td>32</td>
+      <td>56</td>
+      <td>98</td>
+      <td>43</td>
+      <td>65</td>
+    </tr>
+<tr>
+      <td>01/02/2024</td>
+      <td>32</td>
+      <td>56</td>
+      <td>98</td>
+      <td>43</td>
+      <td>65</td>
+    </tr>
+<tr>
+      <td>01/02/2024</td>
+      <td>32</td>
+      <td>56</td>
+      <td>98</td>
+      <td>43</td>
+      <td>65</td>
+    </tr>
+<tr>
+      <td>01/02/2024</td>
+      <td>32</td>
+      <td>56</td>
+      <td>98</td>
+      <td>43</td>
+      <td>65</td>
+    </tr>
+<tr>
+      <td>01/02/2024</td>
+      <td>32</td>
+      <td>56</td>
+      <td>98</td>
+      <td>43</td>
+      <td>65</td>
+    </tr>
+  </tbody>
+</table>
+<table class="random-table">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Aligarh</th>
+      <th>Atrauli</th>
+ <th>Chharra</th>
+      <th>Narora</th>
+      <th>Dibai</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- 30 rows -->
+    <!-- You can use JavaScript to generate these rows dynamically if needed -->
+    <!-- For simplicity, here's a static example -->
+    <tr>
+      <td>01/01/2024</td>
+      <td>45</td>
+      <td>12</td>
+      <td>34</td>
+      <td>78</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>01/02/2024</td>
+      <td>32</td>
+      <td>56</td>
+      <td>98</td>
+      <td>43</td>
+      <td>65</td>
+    </tr>
+    <tr>
+      <td>01/02/2024</td>
+      <td>32</td>
+      <td>56</td>
+      <td>98</td>
+      <td>43</td>
+      <td>65</td>
+    </tr>
+<tr>
+      <td>01/02/2024</td>
+      <td>32</td>
+      <td>56</td>
+      <td>98</td>
+      <td>43</td>
+      <td>65</td>
+    </tr>
+<tr>
+      <td>01/02/2024</td>
+      <td>32</td>
+      <td>56</td>
+      <td>98</td>
+      <td>43</td>
+      <td>65</td>
+    </tr>
+<tr>
+      <td>01/02/2024</td>
+      <td>32</td>
+      <td>56</td>
+      <td>98</td>
+      <td>43</td>
+      <td>65</td>
+    </tr>
+<tr>
+      <td>01/02/2024</td>
+      <td>32</td>
+      <td>56</td>
+      <td>98</td>
+      <td>43</td>
+      <td>65</td>
+    </tr>
+<tr>
+      <td>01/02/2024</td>
+      <td>32</td>
+      <td>56</td>
+      <td>98</td>
+      <td>43</td>
+      <td>65</td>
+    </tr>
+  </tbody>
+</table>
+<div class="contact-details">
+ 
+  <p><b>Malani Thakur</b></p>
+<p class="abc">Ceo Of Satta company</p>
+ <p>अलीगढ़,अतरौली,गली,दिशावर में मिलेगी ऑनली सिंगल जोड़ी जो होगी 1001% गारंटी से पास. हमारे साथ काम करने वाले भाईयों का हर महीने लाखों का प्रॉफिट होता हैं। आप भी ज्वाइन कीजिए। गेम लेने के लिए अभी व्हाट्सएप करें</p>
+  <p>7209143562</p>
+ <a href="https://wa.me/qr/3OTHEPAIJRGCF1" target="_blank" rel="nofollow" class="satta-king-box-button whatsapp">WhatsApp</a>
+<a href="tel:7320905400" class="satta-king-box-button call">Call Now</a>
+
+</div><br>
+<div class="gr-sixteen">
+  <p><strong>::Notice Board::</strong></p>
+  <div class="one">
+    <h2 style="color:white;font-size:22px;">आकाश ठाकुर ONLINE KHAIWAL</h2>
+    <p class="text"> SATTA KING KA WADA</p>
+    <p class="text">1001% PAYMENT KI GARANTI</p>
+  </div>
+  <br>
+  <div class="one-new">
+    <p style="color:white";>जोडी रेट 10 के 95</p>
+    <p style="color:white";>हरूप रेट 100 के 950 PM</p>
+  </div>
+  <br>
+  <div class="two">
+    <p style="color:red";>लखनऊ गोल्ड - 12:00 PM</p>
+    <p style="color:red";>फरीदाबाद-06:00 PM</p>
+    <p style="color:red";>गाज़ियाबाद :- 08:45 PM</p>
+    <p style="color:red";>गली :- 11:30 PM</p>
+    <p style="color:red";>दिसावर :- 04:50 AM</p>
+    <p style="color:red";>भोपाल Morning - 4:30 AM</p>
+  </div>
+  <br>
+  <div class="three">
+    <p style="color:#1de81d;font-size:20px";>PAYMENT GAME PASS KE</p>
+    <p style="color:#1de81d;font-size:20px";>30 MIN BAAD MILEGA</p>
+  </div>
+  <div class="four">
+    <p>OFFICIAL KHAIWAL आकाश ठाकुर</p>
+    <p>9668665275</p>
+  </div>
+  <div class="gr-sixth-whatsapp">
+    <a href="tel:9668665275" target="_blank" rel="nofollow"><p class="one"><strong>CALL NOW</strong></p></a>
+    <a target="_blank" rel="nofollow" href="https://wa.me/message/UHFOCCMXZLDSH1"><p class="two"><strong>WHATSAPP</strong></p></a>
+  </div>
+  <div><a target="_blank" rel="nofollow" href="https://t.me/akashthakhurkhaiwaal"><button><strong>TELEGRAM</strong></button></a></div>
+</div>
+
+  <div class="custom-container">
+  <h2><center>About Satta</center></h2>
+  <p><a href="https://gali-result.in">Satta King</a> or Satta Matka is currently the most growing number-based lottery game in India, Satta King roots back to colonial India. Even Satta King ancient history reckons that gambling was in our blood. Owing to that, it has grown bigger even after the independence. As of now, the estimated daily figure of Satta King is more than 500cr. Not to mention, it is just speculation.
+  </p>
+  <p>Aforesaid, Satta King is a number-based game. Nonetheless, the name of the game is not Satta King. Satta King used to be the title for winner, who wins the game. Moreover, Satta Matka was the game. Earlier, when Satta Matka started, along with the winning amount, people used to get praise and respect from other bettors. Eventually, that mutual respect and friendly foresaying turned into the title. Currently, this title has earned so much popularity among the bettors that they've forgotten the name of the actual game. The name satta matka has been shadowed by the glory of the title, Satta King.</p>
+  <p>Without further ado, let's move on to our topic.</p>
+  <h3><center>What is Satta King?</center></h3>
+  <p>
+  As easy it may seem to speak, as complicated it is. There is a misconception among the people that Satta king is a game. However, it's not. Earlier, Satta King was the title given to the winner of satta. This title was not something that the lottery company came up with, and the title was given out of mutual respect, honor, and fun. Tho, when the game became huge people started using it even in general terms. Everyone related to satta was called Satta King, i.e., Khaiwal, Owner of the lottery company, etc.
+  Additionally, every satta game was famous by the same title. Gali, Disawar, Ghaziabad, Faridabad, etc.
+  </p>
+  <h3><center>What is Satta Matka?</center></h3>
+  <p>Satta Matka is a number-based lottery game in which your luck and precision help you to win the fortune. Before you guys wonder why it's called Satta Matka let me help unveil the dragon. Earlier, results for the game used to come out of the earthen pot, or "Matka" (another word for earthen pot). As a result of this, the term Matka was added to it.</p>
+  <p>As prior mentioned, Satta Matka is a number-based game. It is played between 00 and 99. Bettors have to choose numbers between them and place bets on their desired number. Additionally, to make the game more interesting, lottery companies added Jodi and Dhara to the game. People can either predict the combination of numbers or a single number. Meanwhile, if someone did a precise prediction, they win. Furthermore, they receive the winning amount, either 9x or 90x of the waged money, complying with the satta they waged on ( If someone has waged ₹10, then 9x will be 90, and 90x will be 900).
+  Success in Satta Matka is totally luck-based if your fortune is favoring you. You can win loads of money overnight. If you don't, you can lose a big time.</p>
+  <p>Though everyone plays the game <a href="https://gali-result.in">Satta Matka</a>, they have very less idea about the name. Satta King's title became so popular and made its way into the colloquial language. Moreover, people know the game the same. Currently, Satta King is one of the most played lottery games, along with Gali, Disawar, and a few more. Greed and lust for easy money among people made it immense.</p>
+</div>
+<script>
+  // Function to change the background color of the new word
+  function changeBackgroundColor() {
+    var additionalContent = document.getElementById('additionalContent');
+    var colors = ['red', 'white']; // Red and white colors
+    var i = 0;
+    setInterval(function() {
+      additionalContent.style.backgroundColor = colors[i];
+      i = (i + 1) % colors.length;
+    }, 1000); // Change color every second
+  }
+
+  // Call the function to start background color changing
+  changeBackgroundColor();
+</script>
+
+</body>
+</html>
